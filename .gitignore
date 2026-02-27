@@ -1,0 +1,15 @@
+wp-admin/
+wp-includes/
+
+# uploads (opcional)
+wp-content/uploads/
+
+# cache
+wp-content/cache/
+
+# logs
+*.log
+
+# configs locais
+wp-config-local.php
+.env
