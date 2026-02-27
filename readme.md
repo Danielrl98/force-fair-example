@@ -54,24 +54,26 @@
 
 ### Estrutura plugin:
 
-forcefair-plugin/
-│
-├── forcefair.php
-├── includes/
-│ ├── database/
-│ │ ├── create-tables.php
-│ │
-│ ├── api/
-│ │ ├── prescriptions-controller.php
-│ │ ├── pharmacy-controller.php
-│ │ ├── commissions-controller.php
-│ │
-│ ├── services/
-│ │ ├── prescription-service.php
-│ │ ├── commission-service.php
-│ │
-│ └── hooks/
-│ ├── woocommerce-hooks.php
+```
+    forcefair-plugin/
+    │
+    ├── forcefair.php
+    ├── includes/
+    │ ├── database/
+    │ │ ├── create-tables.php
+    │ │
+    │ ├── api/
+    │ │ ├── prescriptions-controller.php
+    │ │ ├── pharmacy-controller.php
+    │ │ ├── commissions-controller.php
+    │ │
+    │ ├── services/
+    │ │ ├── prescription-service.php
+    │ │ ├── commission-service.php
+    │ │
+    │ └── hooks/
+    │ ├── woocommerce-hooks.php
+```
 
 # Tabelas SQL
 
